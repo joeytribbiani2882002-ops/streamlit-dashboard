@@ -18,11 +18,8 @@ Use the **German Credit Risk** dataset (OpenML: `credit-g`) — a classic busine
 """
 
 # Dataset loader
-from sklearn.datasets import fetch_openml
-
-# credit-g: German Credit Dataset (OpenML)
-data = fetch_openml(name="credit-g", version=1, as_frame=True)
-df = data.frame  # includes features + target
+df = pd.read_csv("credit_data.csv")
+ # includes features + target
 df.head()
 
 
