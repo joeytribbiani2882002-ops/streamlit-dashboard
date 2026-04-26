@@ -18,7 +18,7 @@ Use the **German Credit Risk** dataset (OpenML: `credit-g`) — a classic busine
 """
 
 # Dataset loader
-df = pd.read_csv("credit_data.csv")
+df = pd.read_csv("dataset_31_credit-g.csv")
  # includes features + target
 df.head()
 
