@@ -25,7 +25,6 @@ data = fetch_openml(name="credit-g", version=1, as_frame=True)
 df = data.frame  # includes features + target
 df.head()
 
-!pip install streamlit pyngrok scikit-learn -q
 
 """# **Task 1: Dashboard Framework [5 marks]**"""
 
